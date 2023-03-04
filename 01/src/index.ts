@@ -67,5 +67,13 @@ let student2:{id:number,name:String,age?:number}={
     //age eka dennama one na (Optional)
 }
 
+let teacher:{id:number;name:String;enroll:(date:Date)=>void}={
+    id:10,
+    name:"piyumal",
+    enroll:(date:Date)=>{
+        console.log(date);
+    }
+}
 
+teacher.enroll(new Date());
 
