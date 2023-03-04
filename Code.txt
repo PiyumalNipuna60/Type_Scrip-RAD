@@ -1,0 +1,6 @@
+npm i -g typescript  -- > globle instrol karanna
+tsc -v  --> vertion checking
+npm -v --> node vertion checkig
+tsc index.ts  --> file eka run karnna
+
+tsc --init --> tsconfig.json file ekak gannna
