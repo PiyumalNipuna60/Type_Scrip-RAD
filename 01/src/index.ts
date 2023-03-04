@@ -105,3 +105,12 @@ name:"piyumal"
 }
 
 
+//--------------------------------------
+//union Type(data eke type eka hariyatama danne nattan meka use karanava)
+function getNumber(myNumber:number | String){
+    console.log(myNumber);
+    
+}
+
+getNumber(10);
+getNumber("Piyumal");
