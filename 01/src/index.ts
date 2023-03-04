@@ -67,6 +67,7 @@ let student2:{id:number,name:String,age?:number}={
     //age eka dennama one na (Optional)
 }
 
+//Object
 let teacher:{id:number;name:String;enroll:(date:Date)=>void}={
     id:10,
     name:"piyumal",
@@ -77,3 +78,24 @@ let teacher:{id:number;name:String;enroll:(date:Date)=>void}={
 
 teacher.enroll(new Date());
 
+
+
+//--------------------------------------
+
+//type aliases (Eka vage method dekak one unoth meka use karanna puluvan)
+
+// let student:{id:number,name:String}={
+//     id:10,
+//     name:"piyumal"
+// }
+
+type Employee={
+    id:number,
+    name:String
+}
+
+
+let employee : Employee ={
+id:1,
+name:"piyumal"
+}
