@@ -52,3 +52,7 @@ console.log("parametere one pass :"+subMarks);
 
 let subMarks2=addNumber(40,50);
 console.log("parametere two pass :"+subMarks2);
+
+
+//Object
+let student:{id:number,name:String}={id:10,name:"piyumal"}
