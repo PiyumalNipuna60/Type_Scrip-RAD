@@ -5,3 +5,5 @@ tsc index.ts  --> file eka run karnna
 
 tsc --init --> tsconfig.json file ekak gannna
 tsc --> programm run
+
+node <class path> --> js file run karanna (ex-node dist/index.js)

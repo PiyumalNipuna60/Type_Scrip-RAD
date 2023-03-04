@@ -32,3 +32,6 @@ function calculateAvarageMarks(subjectCount:number,totalMark:number):number{
     let ava=(totalMark/subjectCount)*100
     return ava;
 }
+
+let avaMarks=calculateAvarageMarks(5,420);
+console.log(avaMarks);
