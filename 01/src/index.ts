@@ -88,6 +88,10 @@ teacher.enroll(new Date());
 //     id:10,
 //     name:"piyumal"
 // }
+// let student2:{id:number,name:String}={
+//     id:10,
+//     name:"Nipuna"
+// }
 
 type Employee={
     id:number,
@@ -99,3 +103,5 @@ let employee : Employee ={
 id:1,
 name:"piyumal"
 }
+
+
