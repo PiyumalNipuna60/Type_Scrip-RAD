@@ -35,3 +35,20 @@ function calculateAvarageMarks(subjectCount:number,totalMark:number):number{
 
 let avaMarks=calculateAvarageMarks(5,420);
 console.log(avaMarks);
+
+
+
+//funtion with optional parameter
+function addNumber(firstNumber:number,SecondNumber?:number){
+if(SecondNumber){
+    return (firstName+SecondNumber);
+}
+return firstName;
+
+}
+
+let subMarks=addNumber(40);
+console.log("parametere one pass :"+subMarks);
+
+let subMarks2=addNumber(40,50);
+console.log("parametere two pass :"+subMarks2);
