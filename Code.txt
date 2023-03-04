@@ -4,3 +4,4 @@ npm -v --> node vertion checkig
 tsc index.ts  --> file eka run karnna
 
 tsc --init --> tsconfig.json file ekak gannna
+tsc --> programm run
