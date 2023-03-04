@@ -41,9 +41,9 @@ console.log(avaMarks);
 //funtion with optional parameter
 function addNumber(firstNumber:number,SecondNumber?:number){
 if(SecondNumber){
-    return (firstName+SecondNumber);
+    return (firstNumber+SecondNumber);
 }
-return firstName;
+return firstNumber;
 
 }
 

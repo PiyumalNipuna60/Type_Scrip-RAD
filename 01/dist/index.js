@@ -25,3 +25,14 @@ function calculateAvarageMarks(subjectCount, totalMark) {
 }
 let avaMarks = calculateAvarageMarks(5, 420);
 console.log(avaMarks);
+//funtion with optional parameter
+function addNumber(firstNumber, SecondNumber) {
+    if (SecondNumber) {
+        return (firstNumber + SecondNumber);
+    }
+    return firstNumber;
+}
+let subMarks = addNumber(40);
+console.log("parametere one pass :" + subMarks);
+let subMarks2 = addNumber(40, 50);
+console.log("parametere two pass :" + subMarks2);
