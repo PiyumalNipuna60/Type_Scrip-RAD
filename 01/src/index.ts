@@ -55,4 +55,17 @@ console.log("parametere two pass :"+subMarks2);
 
 
 //Object
-let student:{id:number,name:String}={id:10,name:"piyumal"}
+let student:{id:number,name:String}={
+    id:10,
+    name:"piyumal"
+}
+
+//Object optional
+let student2:{id:number,name:String,age?:number}={
+    id:10,
+    name:"piyumal"
+    //age eka dennama one na (Optional)
+}
+
+
+

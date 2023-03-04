@@ -36,3 +36,22 @@ let subMarks = addNumber(40);
 console.log("parametere one pass :" + subMarks);
 let subMarks2 = addNumber(40, 50);
 console.log("parametere two pass :" + subMarks2);
+//Object
+let student = {
+    id: 10,
+    name: "piyumal"
+};
+//Object optional
+let student2 = {
+    id: 10,
+    name: "piyumal"
+    //age eka dennama one na (Optional)
+};
+let teacher = {
+    id: 10,
+    name: "piyumal",
+    enroll: (date) => {
+        console.log(date);
+    }
+};
+teacher.enroll(new Date());
