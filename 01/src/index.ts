@@ -126,3 +126,18 @@ function getNumber2(myNumber2:number | string):number{
 getNumber2(10);
 getNumber2("Piyumal");
 
+
+//--------------------------------------
+//Nullable/undefined Values
+function genarate(name:string | null | undefined){
+if (name) {
+    console.log(name);
+}else{
+    console.log("Nothing..!");
+    
+}
+}
+
+genarate("Nullable Values");
+genarate(null);
+genarate(undefined)
