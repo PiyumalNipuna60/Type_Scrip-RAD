@@ -107,10 +107,22 @@ name:"piyumal"
 
 //--------------------------------------
 //union Type(data eke type eka hariyatama danne nattan meka use karanava)
-function getNumber(myNumber:number | String){
+function getNumber(myNumber:number | string){
     console.log(myNumber);
-    
 }
 
 getNumber(10);
 getNumber("Piyumal");
+
+//+++++++++++++++++++union Type - narrowing
+function getNumber2(myNumber2:number | string):number{
+    //Narrowing
+    if(typeof myNumber2==='string'){
+        return parseInt(myNumber2);
+    }
+    return myNumber2;
+}
+
+getNumber2(10);
+getNumber2("Piyumal");
+
