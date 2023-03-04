@@ -12,3 +12,5 @@ let firstName: string="Nipuna"
 //let Array
 let numbersArray=[10,20,30,40,50,"nipuna"]
 
+//tuples
+let person:[number,String]=[2,"piyumal"]
