@@ -7,3 +7,15 @@ tsc --init --> tsconfig.json file ekak gannna
 tsc --> programm run
 
 node <class path> --> js file run karanna (ex-node dist/index.js)
+
+
+===React===
+npm install  --> node module packege eka da ganna(meka nathuva run venne naha vena kenekgen ganna project)
+npm start --> react project run karanna
+npx create-react-app test-app --template typescript  --> react project ekak hadanna
+
+
+===tailwindcss===
+npm install -D tailwindcss postcss autoprefixer --> tailwindcss devDependencies add karanna
+
+npx tailwindcss init -p --> tailwindcss and postcss file create
