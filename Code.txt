@@ -19,3 +19,7 @@ npx create-react-app test-app --template typescript  --> react project ekak hada
 npm install -D tailwindcss postcss autoprefixer --> tailwindcss devDependencies add karanna
 
 npx tailwindcss init -p --> tailwindcss and postcss file create
+
+
+
+
