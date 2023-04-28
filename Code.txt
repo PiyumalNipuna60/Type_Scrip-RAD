@@ -21,5 +21,13 @@ npm install -D tailwindcss postcss autoprefixer --> tailwindcss devDependencies 
 npx tailwindcss init -p --> tailwindcss and postcss file create
 
 
+===Rowter lib===
+npm i react-router-dom
 
+
+
+back-end
+===Type Script===
+tsc --init  --> type script  daganna
+ npm --init -> packege jeson hadaganna (Dependency danna)
 
