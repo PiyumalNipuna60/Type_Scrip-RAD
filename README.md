@@ -3,15 +3,15 @@ Study project-lecture
 
 ------------------------
 
-vs code Extension :
-Prettier - Code formatter
-ES7+ React/Redux/React-Native snippets - code sajex karanna
-Code Runner
-Simple React Snippets  - code sajex karanna
-Tailwind CSS IntelliSense - CSS sujes venna
-Material Icon Theme - file kadanna
-Live Server - live code run venna
-Bracket Pair Color DLW - varahan same color
+# vs code Extension :
+# Prettier - Code formatter
+# ES7+ React/Redux/React-Native snippets - code sajex karanna
+# Code Runner
+# Simple React Snippets  - code sajex karanna
+# Tailwind CSS IntelliSense - CSS sujes venna
+# Material Icon Theme - file kadanna
+# Live Server - live code run venna
+# Bracket Pair Color DLW - varahan same color
 
 
 
