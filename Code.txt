@@ -30,4 +30,10 @@ back-end
 ===Type Script===
 tsc --init  --> type script  daganna
  npm --init -> packege jeson hadaganna (Dependency danna)
+ npm install express body-parser mongoose  --> Dependency
+npm install --save-dev nodemon  --> Dependencyes
+npm install --save-dev @types/node @types/express  --> Dependencyes
 
+
+===id password protect karanna===
+ npm install dotenv
